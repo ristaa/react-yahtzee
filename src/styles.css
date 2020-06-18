@@ -1,0 +1,104 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.yahtzee {
+  display: flex;
+}
+
+button {
+  border-radius: 0;
+  border: 1px solid blue;
+  border-top: 0;
+  line-height: 18px;
+  outline: none !important;
+}
+
+button:first-child {
+  border-top: 1px solid blue;
+}
+
+.all-combos {
+  display: flex;
+}
+
+.combos-names {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 5%;
+}
+
+.combos-names span {
+  border: 1px solid blue;
+  border-top: 0;
+  border-right: 0;
+  line-height: 20px;
+  width: 130px;
+}
+
+.combos-names span:first-child {
+  border-top: 1px solid blue;
+}
+
+.sum-cell {
+  background: lightgrey;
+}
+
+.combos {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 5%;
+}
+
+.total-sum {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.total-sum button {
+  width: 50px;
+  border-top: 1px solid blue;
+  border-left: 0;
+}
+
+.dices-component {
+  align-self: center;
+  margin-left: 80px;
+}
+
+.dices {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.dices button {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 20px;
+  outline: none;
+}
+
+.dices button.saved {
+  border: 2px solid green;
+}
+
+.rollBtn {
+  width: 200px;
+  height: 30px;
+  border: 2px solid green;
+  outline: none;
+}
+
+.noRollBtn {
+  width: 200px;
+  height: 30px;
+  border: 2px solid red;
+  outline: none;
+}
